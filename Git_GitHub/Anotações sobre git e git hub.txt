@@ -1,0 +1,18 @@
+Fichamento sobre os conteúdos abordados durante o curso de introdução ao git/github realizado durante bootcamp Eduzz Fullstack Developer #3
+
+Git:
+
+### Sistema de gerenciamento de versões distribuído
+### estrutura composta de blob, tree e commits. Tais objetos visam garantir a integridade dos arquivos versionados, assim como a estrutura hirárquica e as informações de quem fez as alterações; Cada objeto gera uma chave sha1 e qualquer alteração gera uma alteração da chave gerada;
+### Os comandos básicos para navegação no gitbash são ls e mkdir para listar e criar diretório.
+### Os comandos básicos são: 
+	#### git init para inicializar um repositório na pasta escolhida, 
+	#### git clone para clonar um repositório existente, 
+	#### git status para exibir as informações do arquivo e identificar se ele está atualizado, se está na stagging area.
+	#### git add * para adicionar os arquivos modificados para a stagging area para que eles sejam enviados para o repositório
+	#### git pull para baixar a última versão do arquivo que está no repositório
+	#### git commit para persistir uma alteração realizada em um arquivo na cópia do repositório local;
+	#### git push para enviar o arquivos com as alterações para o repositório;
+### Um conflito existe quando existem mais de uma versão de um mesmo arquivos com informações diferentes em uma mesma linha, podendo ser em mais de uma linha que isso ocorra;
+### Os conflitos serão marcados por head que são as alterações que estão no seu repositório local e abaixo do head as alterações que estão no arquivo no repositório. Para resolver esse tipo de conflito, basta fazer a alteração, realizar o commit e enviar a alteração para o repositório;
+
