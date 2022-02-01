@@ -5,6 +5,10 @@ Git:
 ### Sistema de gerenciamento de versões distribuído
 ### estrutura composta de blob, tree e commits. Tais objetos visam garantir a integridade dos arquivos versionados, assim como a estrutura hirárquica e as informações de quem fez as alterações; Cada objeto gera uma chave sha1 e qualquer alteração gera uma alteração da chave gerada;
 ### Os comandos básicos para navegação no gitbash são ls e mkdir para listar e criar diretório.
+### Houve uma alteração e agora não é mais possível utilizar usuário e senha, sendo necessário configurar um token para realizar os commits. 
+	#### Passo 1: gerar uma chave na cli: ssh-keygen -t ed25519
+	#### Passo 2: colocar a chave publica no repositório
+	#### Passo 3: enviar a chave para um agent ssh - eval $(ssh-agent -s); depois ssh-add nome_da_chave
 ### Os comandos básicos são: 
 	#### git config --global user.name para configurar o nome e git config --global user.email para configurar o email. Essas informações são necessárias para o registro dos commits.
 	#### git init para inicializar um repositório na pasta escolhida, 
