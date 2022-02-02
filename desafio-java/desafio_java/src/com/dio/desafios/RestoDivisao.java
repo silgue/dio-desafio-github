@@ -3,6 +3,11 @@ package com.dio.desafios;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Alysson Rodrigues
+ * Classe criada para retornar os números entre dois números informados que são divisiveis por 3 ou por 2.
+ */
 public class RestoDivisao {
 
 	public static void main(String[] args) {
