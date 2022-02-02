@@ -36,10 +36,7 @@ public class RestoDivisao {
 	private static ArrayList<Integer> listaNumerosEntreDoisValores(int x, int y) {
 		ArrayList<Integer> lista = new ArrayList<>();
 		while(x!=y) {
-			x++;
-			if(x!=y) {
-				lista.add(x);
-			}
+			lista.add(x++);
 		}
 		return lista;
 		
