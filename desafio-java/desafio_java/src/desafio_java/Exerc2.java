@@ -1,6 +1,6 @@
 package desafio_java;
 
-public class exerc2 {
+public class Exerc2 {
 
 	public static void main(String[] args) {
 		String nome = "Camila";	

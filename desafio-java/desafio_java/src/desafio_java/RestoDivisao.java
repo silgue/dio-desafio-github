@@ -3,7 +3,7 @@ package desafio_java;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class restoDivisao {
+public class RestoDivisao {
 
 	public static void main(String[] args) {
 		Scanner inp = new Scanner(System.in);
@@ -37,9 +37,7 @@ public class restoDivisao {
 		ArrayList<Integer> lista = new ArrayList<>();
 		while(x!=y) {
 			x++;
-			if(x==y) {
-				
-			}else {
+			if(x!=y) {
 				lista.add(x);
 			}
 		}
