@@ -1,4 +1,4 @@
-package desafio_java;
+package com.dio.desafios;
 
 import java.io.IOException;
 import java.util.Scanner;

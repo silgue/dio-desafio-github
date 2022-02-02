@@ -1,4 +1,4 @@
-package desafio_java;
+package com.dio.desafios;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package desafio_java;
+package com.dio.desafios;
 
 public class Exerc2 {
 
