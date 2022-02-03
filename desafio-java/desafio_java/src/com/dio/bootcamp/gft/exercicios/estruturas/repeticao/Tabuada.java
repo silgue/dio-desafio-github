@@ -10,7 +10,7 @@ public class Tabuada {
 		System.out.println("Informe um número de 0 a 10 para ver a tabuada desse número: ");
 		int numero = scan.nextInt();
 		System.out.println("Tabuada de " + numero + ":");
-		for (int i = 1; i < 11; i++) {
+		for (int i = 1; i <= 10; i++) {
 			System.out.println(numero + " x " + i + " = " + numero * i);
 		}
 
