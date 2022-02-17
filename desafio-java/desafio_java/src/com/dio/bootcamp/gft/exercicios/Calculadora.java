@@ -27,5 +27,9 @@ public class Calculadora {
 
 		return x * y;
 	}
+	
+	public double percentual(double x, double y) {
+		return x * 100 / y;
+	}
 
 }
